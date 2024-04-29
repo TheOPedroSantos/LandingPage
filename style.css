@@ -86,34 +86,91 @@ li {
 .second-page-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-bottom: 100px;
+}
+
+.second-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .card-container {
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
-.card {
+.item {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    gap: 10px;
 }
 
 .image-placeholder-small {
-    border: #3882F6 2px solid;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
+    border: #3882F6 4px solid;
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
 }
 
-.card > .subtext {
+.item > .subtext {
+    color: #1F2937;
+    width: 175px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* third page container */
+
+.third-page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 25%;
+    padding-right: 25%;
+    gap: 15px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
     color: #1F2937;
 }
 
-/* second page container */
-
-.fourth-page-container {
-    background-color: #3882F6;
+.quote-from {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: end;
 }
+
+/* fourth page container */
+
+.blue-card {
+    display: flex;
+    background-color: #3882F6;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    padding: 30px, 40px, 30px, 40px;
+}
+
+.cta-title {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 800;
+}
+
 
 .signup-top {
     background-color: #3882F6;
@@ -146,7 +203,7 @@ li {
     cursor: pointer;
     display: flex;
     font-size: 100%;
-    line-height: 1.15;
+    line-height: 1.15; 
     margin: 0;
     padding: 10px 21px;
     text-align: center;
