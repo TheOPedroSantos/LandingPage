@@ -154,15 +154,14 @@ li {
 
 /* fourth page container */
 
+.fourth-page-container {
+    background-color: #3882F6;
+}
+
 .blue-card {
     display: flex;
-    background-color: #3882F6;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: space-between;
-    padding: 30px, 40px, 30px, 40px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-title {
@@ -171,6 +170,16 @@ li {
     font-weight: 800;
 }
 
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 16px;
+    padding: 40px;
+}
 
 .signup-top {
     background-color: #3882F6;
@@ -208,5 +217,9 @@ li {
     padding: 10px 21px;
     text-align: center;
     text-transform: none;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
     transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
 }
