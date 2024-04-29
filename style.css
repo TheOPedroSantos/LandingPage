@@ -155,15 +155,20 @@ li {
 /* fourth page container */
 
 .fourth-page-container {
-    background-color: #3882F6;
-    width: 500px;
-    height: 200px;
+    display: flex;
 }
 
 .blue-card {
+    background-color: #3882F6;
+    width: 800px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.info-blue-card {
+    justify-content: center;
 }
 
 .cta-title {
@@ -224,4 +229,22 @@ li {
     width: 100px;
     height: 30px;
     transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+}
+
+/* test */
+
+.container-test {
+    display: flex;
+    align-self: center;
+}
+
+.item-test {
+    flex: 1;
+    max-width: 80%;
+    height: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: #3882F6;
 }
