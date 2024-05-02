@@ -184,7 +184,8 @@ li {
 .info-blue-card {
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
+    margin-left: 10%;
+    flex-shrink: 1;
 }
 
 .cta-title {
@@ -212,7 +213,6 @@ li {
     color: #fff;
     cursor: pointer;
     display: flex;
-    /* flex: 1; */
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -236,66 +236,16 @@ li {
     display: flex;
     flex: 0 1 auto;
     flex-wrap: nowrap;
-    font-size: 100%;
     line-height: 1.15; 
     padding: 10px 21px;
     text-align: center;
     text-transform: none;
     justify-content: center;
     align-items: center;
-    width: 120px;
-    height: 35px;
-    margin-right: 120px;
+    max-width: 120px;
+    max-height: 35px;
+    margin-right: 10%;
     font-size: 16px;
     font-weight: 800;
     transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
 }
-
-
-
-/* test */
-
-/* .container-test {
-    display: flex;
-}
-
-.item-test {
-    display: flex;
-    border-radius: 8px;
-    gap: 10px;
-    max-width: 80%;
-    flex: 1;
-    height: 150px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 20%;
-    margin-left: 20%; 
-    background-color: #3882F6;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.item-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
-}
-
-.item-in {
-    color: white;
-    font-size: 24px;
-    font-weight: 900;
-}
-
-.item-in2 {
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.item-button {
-    width: 50px;
-    height: 50px;
-    color: #3882F6;
-    margin-right: 150px;
-} */
