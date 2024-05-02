@@ -25,6 +25,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
+    padding-right: 10%;
 }
 
 ul,
@@ -43,8 +44,8 @@ li {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    justify-content: space-between;
-    gap: 75px;
+    gap: 5%;
+    flex: 1;
     padding-top: 125px;
     padding-bottom: 125px;
     padding-left: 20%;
@@ -57,22 +58,25 @@ li {
     width: 50%;
     gap: 20px;
     flex-grow: 1;
+    justify-content: space-between;
 }
 
 .image-placeholder-big {
     background-color: darkgray;
     width: 50%;
-    height: 250px;
+    max-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
+    padding: 10px;
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    flex-shrink: 1; 
 }
 
 .subtext,
@@ -96,19 +100,21 @@ li {
     align-self: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    flex: 1;
 }
 
 .card-container {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 3%;
+    flex-wrap: wrap;
 }
 
 .item {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 10px;
+    gap: 30%;
 }
 
 .image-placeholder-small {
@@ -121,8 +127,9 @@ li {
 .item > .subtext {
     color: #1F2937;
     width: 175px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
-    padding: 0;
     margin: 0;
 }
 
@@ -205,6 +212,7 @@ li {
     color: #fff;
     cursor: pointer;
     display: flex;
+    /* flex: 1; */
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
@@ -226,6 +234,8 @@ li {
     color: #fff;
     cursor: pointer;
     display: flex;
+    flex: 0 1 auto;
+    flex-wrap: nowrap;
     font-size: 100%;
     line-height: 1.15; 
     padding: 10px 21px;
